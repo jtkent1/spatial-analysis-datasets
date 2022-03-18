@@ -12,13 +12,21 @@ mat = matrix.  The data take the form of an n1 by n2 matrix, where the rows and 
 Data set                          dimensions              Page in book
 
 bauxite-geo.txt                   33 by 3 data frame          8
+
 elevation-geo.txt                 52 by 3 data frame          5
+
 fingerprint-section-mat.txt       356 by 218 matrix          17 
-gravimetric-mat.txt               10 by 10 matrix            20     
+
+gravimetric-mat.txt               10 by 10 matrix            20    
+
 landsat-mat.txt                   200 by 200 matrix           9
+
 laslett-mat.txt                   11 by 11 matrix            21
+
 mercer-hall-mat.txt               20 by 25 matrix            25
+
 synthetic-mat.txt                 200 by 200 matrix          10
+
 webster-mat.txt                   10 by 10 matrix            28
 
 3. Reading the data into R.  Use the read.table command to read in the data as a data frame; convert it to a matrix if desired.  For example, if the data sets are located in the working directory of R, the following commands can be used:
