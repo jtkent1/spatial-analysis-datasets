@@ -32,8 +32,8 @@ webster-mat.txt                   10 by 10 matrix            28
 3. Reading the data into R.  Use the read.table command to read in the data as a data frame; convert it to a matrix if desired.  For example, if the data sets are located in the working directory of R, the following commands can be used:
 
 baux=read.table("bauxite-geo.txt",header=FALSE)
-gravi=read.table("gravimetric-mat.txt",header=FALSE)
-gravi.mat=as.matrix(gravi)
+
+gravi=read.table("gravimetric-mat.txt",header=FALSE); gravi.mat=as.matrix(gravi)
 
 Note: webster-mat.txt contains some missing values indicated by NA. The read.table command in R treats these missing values correctly.
 
